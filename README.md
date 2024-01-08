@@ -1,3 +1,4 @@
+# timeTableGenerator
 Weekly Class Schedule Generator
 
 This project is dedicated to generating a weekly class schedule while adhering to specific constraints through the implementation of the graph coloring method. The constraints include ensuring non-overlapping courses taught by the same instructor, accommodating courses on preferred days, and managing class numbers and names. The project is initiated by storing necessary course information in a table within the MSSQL database. It encompasses frontend and backend development using Python programming language and relevant libraries, notably tkinter, pyodbc, random, tkinter.simpledialog. The project allows for intuitive alterations to the database through a user-friendly interface.
@@ -25,8 +26,7 @@ B. Methods Utilized
     Tkinter.simpledialog: This library includes convenient classes and functions designed specifically for creating simple yet persistent dialogs to gather user input seamlessly.
 
 Databse Diagram:
-
-# timeTableGenerator![Ekran görüntüsü 2024-01-07 190831](https://github.com/tahsinsylmz/timeTableGenerator/assets/94257932/fef24d8b-bd17-43a2-abc8-0b7fc2a39a20)
+![Ekran görüntüsü 2024-01-07 190831](https://github.com/tahsinsylmz/timeTableGenerator/assets/94257932/fef24d8b-bd17-43a2-abc8-0b7fc2a39a20)
 
 
 
