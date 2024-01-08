@@ -33,26 +33,33 @@ Databse Diagram:
 1. dersleri_sozluge_yerlestir()
 
 This function creates an empty dictionary and generates a random schedule. It retrieves the list of courses from the database and allocates random courses to days and timeslots. It performs this under various conditions: ensuring the same course doesn't occur consecutively, avoiding clashes between the same teacher's courses, and more.
+
 2. update_table(value)
 
 This function takes a selected value from the user and updates the table in the interface accordingly. Depending on the chosen value, it populates the table with a new schedule.
+
 3. ders_ekle()
 
 This function provides the user with an interface to add a new course. It opens a window for the user to input information about the course and adds this information to the database.
+
 4. ders_ekle_popup()
 
 This function is called by the ders_ekle() function and generates the necessary interface to add a new course. It presents the user with a window to input details about the course.
+
 5. update_root()
 
 This function periodically updates the interface at regular intervals. It occurs automatically whenever there is any change in the interface.
+
 
 interface: 
 
 ![Ekran görüntüsü 2024-01-08 120229](https://github.com/tahsinsylmz/timeTableGenerator/assets/94257932/e8c568c4-45a1-4942-86a5-d5c136388661)
 
+
 buttons: 
 
 ![Ekran görüntüsü 2024-01-08 115924](https://github.com/tahsinsylmz/timeTableGenerator/assets/94257932/20eaa0fb-ebce-495a-a1ef-118eb0de3b98)
+
 
 
 adding new line in table:
